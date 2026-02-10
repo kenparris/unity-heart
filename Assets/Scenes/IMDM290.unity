@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &430874005
 Transform:
   m_ObjectHideFlags: 0
@@ -577,14 +577,13 @@ GameObject:
   m_Component:
   - component: {fileID: 716317232}
   - component: {fileID: 716317233}
-  - component: {fileID: 716317234}
   m_Layer: 0
   m_Name: 00_Create
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &716317232
 Transform:
   m_ObjectHideFlags: 0
@@ -607,23 +606,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716317231}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9008551ad9bed14d8356d40b223233b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Create
---- !u!114 &716317234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716317231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63680b92bbd1faf45a38927028e8d413, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Lerp1
 --- !u!1 &811760112
 GameObject:
   m_ObjectHideFlags: 0
